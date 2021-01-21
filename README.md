@@ -13,6 +13,6 @@ If we don't want to order explicitly we can run this task as before(which Xerion
 ```bash
 Mix.Tasks.Compile.Dia.run []
 ````
-I solved this project first issue.
-## This is Exerion's project README.md file
+
+## This is Exerion's project README.md file and I solved this project first issue.
 ![alt text](https://github.com/KushanChamindu/mix_dia_compiler/blob/main/images/mix_dia.png)
