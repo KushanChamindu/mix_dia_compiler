@@ -3,9 +3,16 @@ This is project developed my Xerion(https://github.com/xerions) and I solved fir
 ## This is the project URL (https://github.com/xerions/mix_dia_compiler)
 ![alt text](https://github.com/KushanChamindu/mix_dia_compiler/blob/main/images/mix_dia.png)
 
-As below we can specify the order of the dia file and then we can compile accordingly
+As below we can specify the order of the dia file and then we can compile accordingly. 
 ```bash
-      Mix.Tasks.Compile.Dia.run [ %{compile_order: 1, file_name: "b.dia"},
-      %{compile_order: 2, file_name: "a.dia"}]
+[ %{compile_order: 1, file_name: "b.dia"}, %{compile_order: 2, file_name: "a.dia"}] 
 ```
+This is the ordering technique we use.
+```bash
+    Mix.Tasks.Compile.Dia.run [ %{compile_order: 1, file_name: "b.dia"}, %{compile_order: 2, file_name: "a.dia"}] 
+```
+If we don't want to order explicitly we can run this task as before(which Xerion deleped). This version is compatible for both version. We can run this usinng below command
+```bash
+ Mix.Tasks.Compile.Dia.run []
+````
 I solved this project first issue
