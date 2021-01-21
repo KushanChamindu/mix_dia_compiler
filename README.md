@@ -9,7 +9,7 @@ This is the ordering technique we use.
 ```bash
 Mix.Tasks.Compile.Dia.run [ %{compile_order: 1, file_name: "b.dia"}, %{compile_order: 2, file_name: "a.dia"}] 
 ```
-If we don't want to order explicitly we can run this task as before(which Xerion developed). This version is compatible for both versions. We can run Xerion's this usinng below command.
+If we don't want to order explicitly we can run this task as before(which Xerion developed). This version is compatible for both versions. We can run Xerion's version usinng below command.
 ```bash
 Mix.Tasks.Compile.Dia.run []
 ````
