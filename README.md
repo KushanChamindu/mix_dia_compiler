@@ -1,4 +1,4 @@
-# mix_dia_compiler 🤠
+# mix_dia_compiler ☘️
 This is project developed my Xerion(https://github.com/xerions) and I solved first problem of this module
 ## This is the project URL (https://github.com/xerions/mix_dia_compiler)
 As below we can specify the order of the dia file and then we can compile accordingly. 
